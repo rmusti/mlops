@@ -20,6 +20,6 @@ jobs:
     - name: configure azure default
       run: az configure --defaults group=AMLLearning workspace=aml-rmusti-eastus
     - name: Trigger Azure Machine Learning job
-      run: az ml job create --file job.yml
+      run: az ml job create --file src\job.yml
 
 
