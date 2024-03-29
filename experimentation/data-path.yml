@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/asset.schema.json
 name: diabetes-dev-folder
 version: 1
-local_path: diabetes-dev.csv
+path: data
 description: Dataset pointing to diabetes CSV on local computer. Data will be uploaded to default datastore.
