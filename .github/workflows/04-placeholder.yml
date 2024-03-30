@@ -1,0 +1,17 @@
+name: Placeholder for the workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Just a simple echo meessage
+      run: echo "Hello, world!"
+   
